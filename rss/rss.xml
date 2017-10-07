@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>This is our Feed title</title>
+        <link>http://uscgoc.org</link>
+        <description>USCGOC is a ministry of Grace Community Church, a bible study on the campus of the University of Southern California.</description>
+        <language>en-us</language>
+        <copyright>IDRSolutions copyright 2014</copyright>
+        <atom:link href="http://uscgoc.org/rss/rss.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Tue, 16 Aug 2016 15:47:00 GMT</lastBuildDate>
+        <itunes:author>USCGOC</itunes:author>
+        <itunes:summary>USCGOC Sermons Podcast</itunes:summary>
+        <itunes:owner>
+        	<itunes:name>USCGOC</itunes:name>
+					<itunes:email>uscgoc@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:explicit>No</itunes:explicit>
+        <itunes:image href="http://uscgoc.org/rss/podcast_image.png" />
+        <itunes:category text="Religion &amp; Spirituality">
+					<itunes:category text="Christianity" />
+				</itunes:category>
+        <item>
+            <title>Our first Item</title>
+            <pubDate>Tue, 16 Aug 2016 15:47:00 GMT</pubDate>
+            <description>George Liepart preaches on Galatians 1:1-5.</description>
+            <enclosure url="http://uscgoc.org/rss/sermons/1_Galatians_1_1_5.m4a" length="16059940" type="audio/x-m4a" />
+            <guid>http://uscgoc.org/rss/sermons/1_Galatians_1_1_5.m4a</guid> <!-- GUID URL is identical to Enclosure URL -->
+            <itunes:summary>George Liepart preaches on Galatians 1:1-5.</itunes:summary>
+            <itunes:image href="http://uscgoc.org/rss/podcast_image.png" />
+        </item>
+    </channel>
+</rss>
